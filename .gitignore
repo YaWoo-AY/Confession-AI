@@ -1,0 +1,39 @@
+# Node.js (frontend)
+node_modules/
+dist/
+.vite/
+.env
+.env.local
+
+# Python (backend)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+.env
+.venv/
+
+# Ollama / Local AI model cache (if any)
+ollama/
+
+# VSCode settings (optional if you use VSCode)
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Build outputs (optional if you later build frontend for production)
+build/
+
+# Coverage files (if you do testing later)
+coverage/
+
+# IDE files (optional for JetBrains/Webstorm/PyCharm)
+.idea/
+*.iml
