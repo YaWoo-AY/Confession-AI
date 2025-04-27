@@ -3,10 +3,13 @@ import { useState } from "react";
 function App() {
   const [confession, setConfession] = useState("");
   const [reflection, setReflection] = useState("");
+  const [loading, setLoading] = useState(false);  // <-- NEW loading state
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (!confession.trim()) return;
+
+    setLoading(true);    // <-- Start loading when submitting
 
     try {
       const response = await fetch("http://localhost:8000/confess", {
@@ -22,6 +25,8 @@ function App() {
     } catch (error) {
       setReflection("Something went wrong. Please try again later.");
     }
+
+    setLoading(false);   // <-- Stop loading after getting response
   };
 
   return (
@@ -43,12 +48,19 @@ function App() {
         <button
           type="submit"
           className="w-full bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 rounded-lg transition"
+          disabled={loading}  // <-- Disable button while loading
         >
-          Confess
+          {loading ? "Thinking..." : "Confess"}
         </button>
       </form>
 
-      {reflection && (
+      {loading && (
+        <div className="mt-6 text-gray-500 text-lg animate-pulse">
+          ✨ Reflecting on your words...
+        </div>
+      )}
+
+      {reflection && !loading && (
         <div className="w-full max-w-md mt-6 p-6 bg-white rounded-lg shadow-lg border">
           <h2 className="text-2xl font-semibold text-blue-700 mb-2">Reflection</h2>
           <p className="text-gray-700 whitespace-pre-line">{reflection}</p>
