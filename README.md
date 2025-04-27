@@ -114,7 +114,7 @@ confession-ai/
 
 ---
 
-## 🧠 Future Improvements
+## 🧠 Posible Improvements
 - Loading animation during AI thinking
 - Session-based confession history
 - Guided "Examination of Conscience" mode
