@@ -7,7 +7,8 @@
 ---
 
 ## 📸 Preview
-*(You can add a screenshot later here when you deploy!)*
+![image](https://github.com/user-attachments/assets/20320044-cb62-4f79-ad5a-43d1e6591e65)
+
 
 ---
 
@@ -141,5 +142,3 @@ Feel free to use and adapt it with proper credit. 🌟
 - [TailwindCSS](https://tailwindcss.com/)
 
 ---
-
-# 🚀 Let's reflect and grow together!
