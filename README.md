@@ -1,27 +1,27 @@
-# 📖 Confession AI
+# Confession AI
 
 > **A private AI-powered Confession Reflection app** — helps users reflect spiritually by preparing or practicing confessions in a safe, calming environment.  
 >  
-> 🌟 Powered by React.js + FastAPI + Local AI Model (Ollama).
+> Powered by React.js + FastAPI + Local AI Model (Ollama).
 
 ---
 
-## 📸 Preview
+## Preview
 ![image](https://github.com/user-attachments/assets/20320044-cb62-4f79-ad5a-43d1e6591e65)
 
 
 ---
 
-## ✨ Features
-- 📝 Write your personal confessions.
-- 🤖 Receive gentle, compassionate reflections from a local AI model.
-- 🛡️ 100% private — no user data is stored.
-- 🌙 Calm and minimalist design with TailwindCSS.
-- 🚀 Fast, full-stack setup using Vite + FastAPI.
+## Features
+- Write your personal confessions.
+- Receive gentle, compassionate reflections from a local AI model.
+- 100% private — no user data is stored.
+- Calm and minimalist design with TailwindCSS.
+- Fast, full-stack setup using Vite + FastAPI.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Frontend | Backend | AI |
 |:---------|:--------|:---|
@@ -30,7 +30,7 @@
 
 ---
 
-## 🚀 How to Run Locally
+## How to Run Locally
 
 ### 1. Clone the Repo
 
@@ -54,7 +54,7 @@ Start the backend server:
 uvicorn main:app --reload --host 0.0.0.0 --port 8000
 ```
 
-✅ API will run at `http://localhost:8000`.
+API will run at `http://localhost:8000`.
 
 ---
 
@@ -66,7 +66,7 @@ Install [Ollama](https://ollama.com/) and run your model (example: llama3):
 ollama run llama3
 ```
 
-✅ Ollama server will run at `http://localhost:11434`.
+Ollama server will run at `http://localhost:11434`.
 
 ---
 
@@ -78,11 +78,11 @@ npm install
 npm run dev
 ```
 
-✅ Frontend will run at `http://localhost:5173`.
+Frontend will run at `http://localhost:5173`.
 
 ---
 
-## ⚡ Quick Summary
+## Quick Summary
 
 | Part | URL |
 |:-----|:----|
@@ -92,7 +92,7 @@ npm run dev
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 confession-ai/
@@ -114,7 +114,7 @@ confession-ai/
 
 ---
 
-## 🧠 Posible Improvements
+## Posible Improvements
 - Loading animation during AI thinking
 - Session-based confession history
 - Guided "Examination of Conscience" mode
@@ -123,22 +123,25 @@ confession-ai/
 
 ---
 
-## 📄 License
+## License
 This project is licensed under the MIT License.  
 Feel free to use and adapt it with proper credit. 🌟
 
 ---
 
-# 🙏 Final Note
+# Final Note
 > This website is meant for spiritual reflection preparation only and does **not replace the Sacrament of Reconciliation**.  
 > Please seek a priest for official confession and absolution. ✝️
 
 ---
 
-# 📣 Acknowledgements
+# Acknowledgements
 - [Ollama](https://ollama.com/)
 - [FastAPI](https://fastapi.tiangolo.com/)
 - [Vite](https://vitejs.dev/)
 - [TailwindCSS](https://tailwindcss.com/)
 
 ---
+# Author
+
+[Andrew Yang](https://github.com/YaWoo-AY)
